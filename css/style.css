@@ -52,6 +52,14 @@
   font-size: 16px;
 }
 
+#icon {
+  padding-right: 5px;
+}
+
+#icon2 {
+  padding-right: 5px;
+}
+
 .google {
   padding: 8px;
   position: absolute;
