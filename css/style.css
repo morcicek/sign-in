@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  /* border: 2px solid red; */
+  max-width: 900px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#head {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#survey-form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px 30px;
+}
+
+#survey-form {
+  max-width: 350px;
+  margin: auto;
+  font-size: 1.3rem;
+}
+
+#both {
+  position: relative;
+}
+
+.facebook {
+  padding: 8px;
+  position: absolute;
+  left: 0;
+  border: 2px solid blue;
+  width: 42%;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #1877f2;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.facebook a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.google {
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  border: 2px solid blue;
+  width: 42%;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.google a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+#uname,
+#password {
+  width: 92%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#form-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.input-box {
+  margin-top: 10px;
+}
+
+#submit-box {
+  margin-top: 10px;
+}
+
+#last {
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+}
+
+#last a {
+  color: gray;
+}
